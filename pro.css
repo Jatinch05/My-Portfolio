@@ -8,7 +8,7 @@
     from
     {
         opacity: 0;
-        transform:translateY(-10px) ;
+        transform:translateY(-100px) ;
         
     }
     to
@@ -22,14 +22,14 @@
 }
 #navbar
 {
-    animation: transIn 0.75s ease-out;
+    animation: transIn 1.5s ease-out;
 }
 @keyframes transIn
 {
     from
     {
         opacity: 0;
-        transform:translateY(-30px) ;
+        transform:translateY(-100px) ;
         
     }
     to
