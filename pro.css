@@ -1,6 +1,6 @@
 .anim
 {
-    animation: transitionIn 0.75s;
+    animation: transitionIn 0.75s ease-in;
 }
 
 @keyframes transitionIn
@@ -9,6 +9,27 @@
     {
         opacity: 0;
         transform:translateY(-10px) ;
+        
+    }
+    to
+    {
+        opacity: 1;
+        transform:translateY(0px) ;
+        
+    }
+
+
+}
+#navbar
+{
+    animation: transIn 0.75s ease-out;
+}
+@keyframes transIn
+{
+    from
+    {
+        opacity: 0;
+        transform:translateY(-30px) ;
         
     }
     to
